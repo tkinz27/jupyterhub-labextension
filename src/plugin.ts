@@ -7,15 +7,15 @@ import {
 
 import {
   utils
-} from '@jupyterlab/services/lib';
+} from '@jupyterlab/services/utils';
 
 import {
   ICommandPalette
-} from 'jupyterlab/lib/commandpalette';
+} from 'jupyterlab/apputils/commandpalette';
 
 import {
   IMainMenu
-} from 'jupyterlab/lib/mainmenu';
+} from 'jupyterlab/aputils/mainmenu';
 
 import {
   JupyterLab, JupyterLabPlugin
